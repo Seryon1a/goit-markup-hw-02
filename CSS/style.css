@@ -72,7 +72,7 @@ body {
 /* title */
 .caption {
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 56px;
 
   /* line-height: 60px; */
@@ -98,7 +98,11 @@ body {
 }
 
 .btn:hover {
-  color: #404bbf;
+  background-color: #404bbf;
+}
+
+.btn:focus {
+  background-color: #404bbf;
 }
 
 .subtitl {
@@ -131,7 +135,7 @@ body {
   font-size: 36px;
 
   /* line-height: 40px; */
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -149,7 +153,10 @@ body {
   background: #fff;
 }
 
-.heading,
+.heading {
+  text-align: center;
+}
+
 .list {
   text-align: center;
 }
