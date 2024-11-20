@@ -5,7 +5,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: normal;
-  background-color: #fff;
+  background-color: #ffffff;
   color: #434455;
 }
 
@@ -20,7 +20,7 @@ body {
   font-size: 18px;
 
   /* line-height: 21px; */
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -88,11 +88,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   color: #fff;
 }
@@ -142,13 +137,6 @@ body {
 }
 
 .item {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
-
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
 
@@ -161,8 +149,6 @@ body {
 }
 
 .our-port-items {
-  width: 360px;
-  height: 420px;
   background: #fff;
 }
 
@@ -206,10 +192,9 @@ h3 {
   color: #f4f4fd;
 }
 
-.logo {
-  width: 115px;
-  height: 24px;
-}
+/* .logo {
+  
+} */
 
 .footer-text {
   font-family: "Roboto", sans-serif;
